@@ -1,0 +1,267 @@
+{
+	"info": {
+		"_postman_id": "2ee51690-e653-407a-8f01-72a733200487",
+		"name": "koinDcx-assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12688434"
+	},
+	"item": [
+		{
+			"name": "Get coin stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/coins/stats?coin=bitcoin",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"coins",
+						"stats"
+					],
+					"query": [
+						{
+							"key": "coin",
+							"value": "bitcoin"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "bitcoin search",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/api/coins/stats?coin=bitcoin",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"api",
+								"coins",
+								"stats"
+							],
+							"query": [
+								{
+									"key": "coin",
+									"value": "bitcoin"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "250"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"fa-t8jGWho70C2MzaKBAY0qbz2l36Q\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Jan 2025 12:12:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"67810d64f8e0534305b2e6d3\",\n    \"coinId\": \"bitcoin\",\n    \"price\": 95101,\n    \"marketCap\": 1881416403194.7012,\n    \"dayChange\": 1.9231628218486647,\n    \"lastFetchedAt\": \"2025-01-10T12:08:01.072Z\",\n    \"createdAt\": \"2025-01-10T12:07:00.252Z\",\n    \"updatedAt\": \"2025-01-10T12:08:01.072Z\"\n}"
+				},
+				{
+					"name": "ethardio get from db",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/api/coins/stats?coin=ethardio",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"api",
+								"coins",
+								"stats"
+							],
+							"query": [
+								{
+									"key": "coin",
+									"value": "ethardio"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "256"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"100-OZf6ULgo+lUKl+OJ3GGcH9tVVt4\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Jan 2025 12:35:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"678113fef8e0534305b2e6dc\",\n    \"coinId\": \"ethardio\",\n    \"price\": 0.00004641,\n    \"marketCap\": 46411.15278035506,\n    \"dayChange\": -1.2773615098993696,\n    \"lastFetchedAt\": \"2025-01-10T12:35:10.809Z\",\n    \"createdAt\": \"2025-01-10T12:35:10.811Z\",\n    \"updatedAt\": \"2025-01-10T12:35:10.811Z\"\n}"
+				},
+				{
+					"name": "eternal-ai-from-third-party",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/api/coins/stats?coin=eternal-ai",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"api",
+								"coins",
+								"stats"
+							],
+							"query": [
+								{
+									"key": "coin",
+									"value": "eternal-ai"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "131"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"83-l7TWpL422EF5kZJWU92+mnknmHY\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Jan 2025 12:35:53 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"coinId\": \"eternal-ai\",\n    \"price\": 0.00453208,\n    \"marketCap\": 0,\n    \"dayChange\": -0.7928996601526004,\n    \"lastFetchedAt\": \"2025-01-10T12:35:52.991Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get coin deviation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/coins/deviation?coin=ethereum",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"coins",
+						"deviation"
+					],
+					"query": [
+						{
+							"key": "coin",
+							"value": "ethereum"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "server",
+			"value": "http://localhost:8080",
+			"type": "string"
+		}
+	]
+}
